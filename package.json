@@ -1,0 +1,22 @@
+{
+  "name": "collectionflabeach",
+  "version": "0.0.0",
+  "description": "Collection Fla Beach",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cleberar38/collectionflabeach.git"
+  },
+  "keywords": [
+    "fla",
+    "beach"
+  ],
+  "author": "Cleber A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleberar38/collectionflabeach/issues"
+  }
+}
