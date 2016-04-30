@@ -1,0 +1,274 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.noUi-connect {
+    background: #A61103 !important;
+    /*background: #F25C05 !important;*/
+}
+
+.tooltip {
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 2px;
+    display: block;
+    opacity: .9;
+    color: #fff;
+    background: #A61103;
+    /*background: #F25C05;*/
+    padding: 2px 4px;
+    margin-top: -22px;
+    width:40px;
+    text-align: center;
+    margin-left: -4px;
+}
+
+a:link,
+a:visited,
+a:hover {
+    color: #F25C05;
+}
+
+a:active {
+    color: #A61103;
+}
+
+.footer a:visited {
+    color: #A61103;
+}
+
+.footer a:active {
+    color: #F25C05;
+}
+
+.center-block {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center-block.trim {
+    max-width: 480px;
+    /*max-width: 540px;*/
+}
+
+.slider-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #969696;;
+}
+
+.slider-label {
+    display: block;
+    padding-bottom: 2px;
+}
+
+.navbar-default {
+    background: #E44E0F !important;
+    
+    border-bottom: solid 1px #000;
+    font-family: 'Yanone Kaffeesatz', 'Open Sans', sans-serif;
+    font-size: 32px;
+    color: #000;
+}
+
+.panel {
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 75px;
+    margin: 4px;
+}
+
+.panel-default>.panel-body {
+    padding: 8px 8px 8px 2px;
+    text-align: left;
+}
+
+.panel-body h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.panel-body p {
+    margin: 0 auto;
+    padding-left: 20px;
+    line-height: 1.2em;
+    font-size: 12px;
+}
+
+.panel-body p img {
+    margin: 0 auto !important;
+    display: block;
+}
+
+.tag:not(:last-child)::after  {
+    content: ", ";
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    white-space:pre;
+}
+
+.nopadding {
+    padding: 1px !important;
+    margin: 0 !important;
+}
+
+.nopadding p span {
+    margin-left: 0 auto;
+    font-size: 12px;
+}
+
+.padding {
+    padding: 4px;
+}
+
+.footer {
+    margin-top: 50px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    border-top: solid 1px #EEE;
+    color: #969696;
+}
+
+.img-wrapper {
+    height: 150px;
+    width: 60px;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.icon {
+    height: 16px !important;
+    margin: 0 !important;
+    margin-top: 0px !important;
+    margin-right: 4px !important;
+    opacity: 1;
+    font-size: 10px;
+
+}
+
+.level {
+    margin: -2px 0 !important;
+    opacity: 1;
+    height: 28px;
+    width: 28px;
+    background: #F25C05;
+    border-radius: 14px;
+    display: inline-block;
+    color: #ffffff;
+    padding-top: 7px;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 0 !important;
+}
+
+.search-wrapper {
+    position: relative;
+}
+
+.search-wrapper button {
+    position: absolute;
+    right: 0px;
+    top: 2px;
+}
+
+textarea:focus,
+input[type="search"]:focus {
+    border-color: #BBB;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #969696;
+    border-radius: 0;
+    border: none !important;
+}
+
+.btn:focus,
+.btn:active {
+    outline: solid 1px #F25C05 !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 3px #F25C05;
+}
+
+.btn-link:focus,
+.btn-link:active {
+    outline: none !important;
+    box-shadow: none;
+}
+.btn-link:hover {
+    color: #333333;
+}
+
+.image-logo {
+    width: 90px;
+    height: auto;
+}
+.row, .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+}
+.logo-center {
+    float: none;
+    margin: 0 auto;
+}
+/* .btn padding : 0px */
+.btn-icons{
+    width: 100%;
+    padding: 0;
+    color: #000;
+}
+
+.add-delete-btn {
+
+}
+.container.collect-btn {
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 1140px;
+}
+
+
+@media (min-width: 768px){
+    .container.collect-btn{
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px){
+    .container.collect-btn{
+        max-width: 940px;
+    }
+
+}
+
+@media (min-width: 1200px){
+
+}
+
+.transp{
+    color: #000;
+    display: none;
+}
+
+.btn-hidden{
+    display: none;
+}
+.btn-shown{
+    display: block;
+}
+.login-view{
+    width:500px;
+    height: 500px;
+    margin: auto;
+}
+
+.logout-link{
+    float: right;
+    margin-top: 10px;
+    margin-left: 2px; 
+}

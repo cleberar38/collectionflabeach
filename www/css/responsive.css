@@ -1,0 +1,17 @@
+@media (min-width: 768px){
+	.collect-btn{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+	.collect-btn{
+		max-width: 940px;
+	}
+
+}
