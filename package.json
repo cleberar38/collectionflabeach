@@ -2,21 +2,30 @@
   "name": "collectionflabeach",
   "version": "0.0.0",
   "description": "Collection Fla Beach",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/cleberar38/collectionflabeach.git"
+    "type": "git"
   },
-  "keywords": [
-    "fla",
-    "beach"
-  ],
   "author": "Cleber A.",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cleberar38/collectionflabeach/issues"
+    
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "compression": "^1.2.2",
+    "express": "^4.10.6",
+    "path": "^0.4.9",
+    "pg": "^4.1.1",
+    "q": "^1.1.2"
+  },
+  "devDependencies": {
+    "react": "^0.14.0",
+    "react-addons-update": "^0.14.0",
+    "require": "^2.4.20"
   }
 }
